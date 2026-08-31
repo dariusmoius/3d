@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 # y: Velocidad peculiar corregida en km/s (0 a 1000 km/s)
 z = np.linspace(0, 0.05, 100)
 
-v_pec = np. espacio de línea ( 0 , 1000 , 100 )
+v_pec = np. espacio de línea ( 0, 1000, 100 )
 Z, V = np. cuadrícula de malla ( z, v_pec )
 
 # 2. Parámetros físicos reales de la Teoría QAST
