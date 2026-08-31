@@ -4,7 +4,8 @@ import plotly.graph_objects as go
 # 1. Definición del mallado de datos (Grid espacial y cinemático)
 # x: Desplazamiento al rojo (z) que cubre la burbuja local y su vecindad (0 a 0.05)
 # y: Velocidad peculiar corregida en km/s (0 a 1000 km/s)
-z = np. espacio de línea ( 0 , 0,05 , 100 )
+z = np.linspace(0, 0.05, 100)
+
 v_pec = np. espacio de línea ( 0 , 1000 , 100 )
 Z, V = np. cuadrícula de malla ( z, v_pec )
 
